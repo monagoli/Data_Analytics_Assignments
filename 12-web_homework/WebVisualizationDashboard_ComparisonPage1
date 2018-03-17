@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Visuzalization Page 1</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <a class="navbar-brand" href="#">
+	  		<figure class = 'latitude-font'>Latitude</figure>
+	  	</a>
+	  <div class="collapse navbar-collapse">
+	  	<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> -->
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	    <ul class="navbar-nav ml-auto">
+	      <li class="nav-item active">
+	         <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Plots
+        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+	          <a class="dropdown-item" href="#">Latitude vs Cloudiness</a>
+	          <a class="dropdown-item" href="#">Latitude vs Humidity</a>
+	          <a class="dropdown-item" href="#">Latitude vs Windspeed</a>
+	        </div>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Comparison</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">
+	          Data
+	        </a>
+	      </li>
+	    </ul>
+	 
+	</nav>
+
+
+	<h1> Latitude v Cloudiness </h1>
+	<hr>
+	<div class=container>
+		<div class='row'>
+			<img src='./Images/Latitude_v_Cloudiness.png' alt='latitude vs cloudiness' class='center'>
+		</div>
+	
+	<!-- <div class='col-sm-3'> -->
+			<figure class='box box-5'>
+					<h6> Visualizations </h6>
+					<img src ='./Images/Latitude_v_Cloudiness.png' alt ='Latitude vs Cloudiness' class='img-thumbnail graphs img-fluid' class='smaller'>
+					<br>
+					<img src ='./Images/Latitude_v_Humidity.png' alt ='Latitude vs Humidity' class='img-thumbnail graphs img-fluid'>
+					<br>
+					<img src ='./Images/Latitude_v_Humidity.png' alt ='Latitude vs Humidity' class='img-thumbnail graphs img-fluid'>
+					<br>
+					<img src ='./Images/Latitude_v_WindSpeed.png' alt ='Latitude vs Windspeed' class='img-thumbnail graphs img-fluid' >
+			</figure> 
+	</div>
+
+
+
+
+
+
+
+
