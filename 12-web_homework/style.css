@@ -44,7 +44,7 @@
 
 .latitude-font{
   font-size: 25px;
-  font-family: 'Roboto Mono';
+  font-family:Lucida Console;
 }
  
 .graphs{
@@ -71,14 +71,14 @@
 }*/
 
 h1 {
-  font: 40px georgia,serif;
+  font-family:Lucida Console;
   text-align: center;
   font-weight: bold;
   padding: 25px 25px 25px;
 }
 
 p {
-  font: 15px georgia,serif;
+  font-family:Lucida Console;
   text-align: justify;
 }
 
@@ -114,4 +114,22 @@ p {
 .smaller{
   height: 500px;
   width: 500px;
+}
+
+.box2 {
+  
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: ##f0ead6
+}
+
+hr {
+  margin-left:25px;
+  margin-right: 25px;
+}
+
+nav{
+  font-family:Lucida Console;
+
 }

@@ -12,7 +12,7 @@
 
 </head>
 <body>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 	  <a class="navbar-brand" href="#">
 	  		<figure class = 'latitude-font'>Latitude</figure>
 	  	</a>
@@ -26,16 +26,17 @@
           Plots
         </a>
 	        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-	          <a class="dropdown-item" href="#">Latitude vs Cloudiness</a>
-	          <a class="dropdown-item" href="#">Latitude vs Humidity</a>
-	          <a class="dropdown-item" href="#">Latitude vs Windspeed</a>
+	          	<a class="dropdown-item" href="WebVisualizationDashboard_HomePage.html">Home</a>
+	          	<a class="dropdown-item" href="WebVisualizationDashboard_ComparisonPage1">Latitude vs Cloudiness</a>
+	          	<a class="dropdown-item" href="WebVisualizationDashboard_ComparisonPage2.html">Latitude vs Humidity</a>
+	          	<a class="dropdown-item" href="WebVisualizationDashboard_ComparisonPage3.html">Latitude vs Windspeed</a>
 	        </div>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="#">Comparison</a>
+	        <a class="nav-link" href="WebVisualizationDashboard_VisualizationPage">Comparison</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="#">
+	        <a class="nav-link" href="WebVisualizationDashboard_DataTable.html">
 	          Data
 	        </a>
 	      </li>
@@ -50,17 +51,17 @@
 		<div class=container>
 			<!--  <div class='row'>
 				< <figure class='box box-1'>  -->
-					<div class ='panel'>
-						<div class = 'row' >
-							<div class="col-sm-6">
-									<a target ='_blank' href='./Images/Latitude_v_Cloudiness.png'><img src='./Images/Latitude_v_Cloudiness.png' alt='latitude vs cloudiness' style='width:100%'></a>
-									<a target ='_blank' href ='./Images/Latitude_v_Humidity.png'><img src='./Images/Latitude_v_Humidity.png' alt='latitude vs humidity' style='width:100%'></a>
-							</div>
-							<div class="col-sm-6">
-									<a target ='_blank' href ='./Images/Latitude_v_WindSpeed.png'><img src='./Images/Latitude_v_WindSpeed.png' alt='latitude vs windspeed' style='width:100%'></a>
-							</div>
-						</div>
-					</div> --> -->
+			<div class ='panel'>
+				<div class = 'row' >
+					<div class="col-sm-6">
+							<a target ='_blank' href='WebVisualizationDashboard_ComparisonPage1'><img src='./Images/Latitude_v_Cloudiness.png' alt='latitude vs cloudiness' style='width:100%'></a>
+							<a target ='_blank' href ='WebVisualizationDashboard_ComparisonPage2.html'><img src='./Images/Latitude_v_Humidity.png' alt='latitude vs humidity' style='width:100%'></a>
+					</div>
+					<div class="col-sm-6">
+							<a target ='_blank' href ='WebVisualizationDashboard_ComparisonPage3.html'><img src='./Images/Latitude_v_WindSpeed.png' alt='latitude vs windspeed' style='width:100%'></a>
+					</div>
+				</div>
+			</div>
 		</div>
 
 					
