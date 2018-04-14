@@ -1,0 +1,30 @@
+body {
+    font-family: 'Roboto Mono';
+    margin:0; 
+    padding:0;
+}
+
+h1 {
+	font-size: 35px;
+}
+
+p {
+	font-size: 15px;
+	font-style: italic;
+}
+
+.btn {
+	background-color: #9ba8f2
+	border-color:#9ba8f2 ;
+}
+
+.jumbotron{
+	font-family: 'Roboto Mono';
+}
+  
+#map { 
+	position:absolute; 
+	top:0; 
+	bottom:0; 
+	width:100%; 
+}
